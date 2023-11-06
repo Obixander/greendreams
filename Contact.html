@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html class="htmlcontact" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontact Os</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/img/icons8-green-earth-96.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="contactbody">
+    <div class="topnav">
+      <img
+        class="bannerimg"
+        src="./img/Forside img/flowers-3571119_1920 kopier.jpg"
+        alt="Banner Image af blømster"
+      />
+      <a class="active" href="./index.html">Forside</a>
+      <a href="Database.html">Plante Database</a>
+      <a href="Contact.html">Kontakt Os</a>
+    </div>
+
+    <main class="contactmain">
+      <h2 class="kontakth2">Kontakt os</h2>
+
+      <form class="inputarea" method="get">
+        <p>
+          <label for="text">Navn:</label>
+          <input
+          required
+            type="text"
+            name="namefield"
+            id="namefield"
+            class="textfields"
+          />
+        </p>
+
+        <p>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="emailfield" class="textfields" />
+        </p>
+
+        <p>
+          <label for="textfield">Besked:</label>
+    <textarea placeholder="indtast din besked..." name="textfield" id="beskedfield"></textarea>
+        </p>
+
+      <p>
+        <label for="checkbox">Ny Plante til databasen:</label>
+        <input type="checkbox" name="nyplante" id="nyplante">
+      </p>
+<div id="hidden">
+        <p>
+          <label for="text">Plantens danske navn:</label>
+          <input
+            type="text"
+            name="danskplantenavn"
+            id="danskplantenavn"
+            class="textfields"
+          />
+        </p>
+
+<p>
+<label for="text">Plantens variant:</label>
+<input type="text" name="plantevariant" id="plantevariant" class="textfields">
+
+</p>
+
+<p>
+<label for="text">Plantens botaniske navn:</label>
+<input type="text" name="plantebotaniskenavn" id="plantebotaniskenavn" class="textfields">
+</p>
+
+<p>
+<label for="text">Plantens type:</label>
+<input type="text" name="plantetype" id="plantetype" class="textfields">
+</p>
+
+<p>
+<label for="number">Plantes højde:</label>
+<input type="number" name="plantehøjde" id="plantehøjde">
+<label class="extrainfo" for="number">cm</label>
+</p>
+
+<p>
+  <label for="number">Plantes rækkeafstand:</label>
+  <input type="number" name="planterækkeafstand" id="planterækkeafstand">
+  <label class="extrainfo" for="number">cm</label>
+
+</p>
+
+<p>
+  <label for="number">Plantes sådybde:</label>
+  <input type="number" name="plantesådybde" id="plantesådybde">
+  <label class="extrainfo" for="number">cm</label>
+</p>
+
+<p>
+<label for="lysforhold">Plantes lysforhold:</label>
+<select name="lysforhold" id="lysforhold">
+  <option value="nothing">Vælg en</option>
+  <option value="fuldsol">Fuld Soll</option>
+  <option value="skygge">Skygge</option>
+  <option value="mørke">mørke</option>
+</select>
+</p>
+
+<p>
+  <label for="plantespire">Planten forspires i:</label>
+
+  <select size="12" name="plantespire" id="plantespire" multiple>
+<option value="Januar">Januar</option>
+<option value="Februar">Februar</option>
+<option value="Marts">Marts</option>
+<option value="April">April</option>
+<option value="Maj">Maj</option>
+<option value="Juni">Juni</option>
+<option value="Juli">Juli</option>
+<option value="August">August</option>
+<option value="September">September</option>
+<option value="Oktober">Oktober</option>
+<option value="November">November</option>
+<option value="December">December</option>
+
+  </select>
+</p>
+
+<p>
+<label for="planteudplante">Planten udplantes i:</label>
+
+  <select size="12" multiple name="planteudplante" id="planteudplante">
+    <option value="Januar">Januar</option>
+    <option value="Februar">Februar</option>
+    <option value="Marts">Marts</option>
+    <option value="April">April</option>
+    <option value="Maj">Maj</option>
+    <option value="Juni">Juni</option>
+    <option value="Juli">Juli</option>
+    <option value="August">August</option>
+    <option value="September">September</option>
+    <option value="Oktober">Oktober</option>
+    <option value="November">November</option>
+    <option value="December">December</option>
+
+
+  </select>
+</p>
+
+
+<p>
+<label for="number">Planten Spire efter ca:</label>
+<input type="number" name="Spireefter" id="Spireefter">
+<label class="extrainfo" for="number">Dage</label>
+</p>
+
+<p>
+<label for="number">Planten er klar til høst efter ca:</label>
+<input type="number" name="høstklar" id="høstklar">
+<label class="extrainfo" for="number">Dage</label>
+</p>
+
+<p>
+<label for="Plantebeskrivelse">Plantensbeskrivelse:</label>
+<textarea placeholder="udfyld her..." name="Plantebeskrivelse" id="Plantebeskrivelse"></textarea>
+</p>
+</div>
+<p>
+  <input type="button" value="Indsend">
+</p>
+
+      </form>
+    </main>
+  </body>
+</html>

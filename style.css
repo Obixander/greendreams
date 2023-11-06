@@ -1,0 +1,381 @@
+/* HTML Tag Styling */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&display=swap');
+
+
+  img {
+   border-radius: 40px;
+}
+
+
+html {
+   background-color: #96E8BC;
+}
+
+* {
+   box-sizing: border-box;
+   margin: 0;
+ }
+ 
+
+ a:visited {
+   color: black;
+   background-color: transparent;
+ }
+
+article {
+   font-family: 'Roboto', sans-serif;
+   font-size: 20px;
+   margin: 15px;
+
+}
+h2 {
+   padding-top: 2px;
+   padding-bottom: 2px;
+   font-size: 1.8em;
+}
+
+main {
+   min-height: 87vh;
+   width: 75%;
+   margin: auto;
+}
+
+h1 {
+   padding-top: 50px;
+   font-size: 50px;
+  text-align: center;
+}
+
+p {
+   /* font-family: 'DM Sans', sans-serif; */
+   font-size: 25px;
+}
+
+h2 {
+ text-align: center;
+}
+
+footer {
+   height: 30px;
+   padding-top: 5px;
+}
+
+
+/* Classes Styling */
+
+.forsidelink {
+   max-height: 40px;
+}
+
+nav a {
+   color: wheat;
+   text-decoration: none;
+   font-size: 1.8em;
+   padding: 5px;
+}
+
+.navigation {
+   height: 2em;
+   background-color: darkgreen;
+text-align: center;
+box-shadow: 3px 1px;
+
+}
+
+.overskrift {
+   /* font-family: roboto; */
+   padding-top: 23vh;
+   margin: 5px;
+}
+
+
+.underskrift {
+   margin: 4px;
+   font-size: 1.35em;
+   text-align: center;
+}
+
+
+
+.forsideimage {
+   width: 100%;
+   margin: 1px;
+}
+.forsideimage2 {
+   max-width: 100%;
+   max-height: 100%;
+}
+/* for Flex? in nav in the bottom */
+@media screen and (max-width: 500px) {
+   .nyesteplante {
+     width: 100%;
+   }
+ }
+
+.nyesteplantedata {
+width: 100%;
+height: 100%;
+}
+.nyesteplante {
+   width: 100%;
+   height: 100%;
+   }
+/* .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ } */
+.bønneimage {
+   display: block;
+   padding-right: 25px;
+   width: 100%;
+}
+
+.basilikumimg {
+   display: block;
+   margin-right: 25px;
+   /* width: 55%; */
+   /* height:auto */
+   max-height: 600px;
+   /* margin: 50px; */
+   min-width: 480px;
+}
+
+/* .basildiv {
+   margin-top: 25px;
+} */
+
+
+
+
+.eartimage {
+   display: block;
+   padding-right: 25px;
+   width: 50%;
+   height: auto;
+   margin: 5px;
+}
+.databasetext {
+   font-size: 200px;
+}
+
+
+
+/* Flexbox */
+
+
+.flexcontainer {
+   display: flex;
+   flex-wrap: wrap;
+   /* align-items: center; */
+   margin-top: 50px;
+}
+
+.flexforside {
+   display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.flexdatabase {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   font-size: 25px;
+}
+
+.flexforside div {
+   width: 30%;
+}
+
+.ærtinfo {
+   text-align: center;
+   font-size: 25px;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+   display: flex;
+   flex-wrap: wrap ;
+   background-color: #333;
+   position: fixed;
+   width: 100%;
+   top: 0px;
+ }
+ 
+ /* Style the links inside the navigation bar */
+ .topnav a {
+   
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+   font-size: 17px;
+ }
+ 
+ /* Change the color of links on hover */
+ .topnav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ /* Add a color to the active/current link */
+ .topnav a.active {
+   background-color: #04AA6D;
+   color: white;
+ }
+
+
+
+
+
+ /* Media testing */
+ @media screen and (max-width: 600px) {
+   .footer {
+     display: none;
+   }
+ }
+
+ @media screen and (max-width: 500px) {
+   .topnav {
+     display: none;
+   }
+ }
+
+
+
+.divfooter {
+   display: flex;
+}
+
+
+footer {
+   background-color: #333;
+   color: #f2f2f2;
+   width: 100%;
+   text-align: center;
+   height: 30px;
+   margin-top: 10vh;
+
+}
+
+.nyesteplante:hover{
+   transition: 0.4s ease;
+ opacity: 0.6;
+ box-shadow: black 2px 2px;
+}
+
+.nyplant {
+   padding: 5px;
+   color: #f3f3f3;
+   background-color: #333;
+   text-shadow: 2px 2px 4px #000000;
+}
+
+.bannerimg {
+   border-radius: 0px 0px 0px 0px;
+   height: 100px;
+   width: 100%;
+}
+
+
+/* Kontakt Formular */
+.contactmain {
+   /* display: flex; */
+   width: 60%;
+   min-height: 0;
+margin-top: 12%;
+}
+
+
+.contactbody {
+   background-color: white;
+
+}
+
+.htmlcontact {
+   background-color: white;
+}
+
+.kontakth2 {
+   color: green;
+text-align: left;
+}
+
+.inputarea {
+   /* display: flex; */
+   flex-wrap: wrap;
+   flex-direction: column;
+margin-top: 5%;
+justify-content: space-evenly;
+
+}
+
+
+h4 {
+   text-align: left;
+}
+
+label {
+   display: inline-block;
+   width: 30rem;
+}
+
+input {
+   background-color: rgba(211, 211, 211, 0.445);
+   margin-right: 20px;
+}
+
+input:focus {
+   background-color: white;
+}
+
+textarea {
+   background-color: rgba(211, 211, 211, 0.445);
+   width: 20rem;
+   height: 7rem;
+}
+textarea:focus {
+   background-color: white;
+}
+
+.extrainfo {
+   width: 0.1%;
+}
+
+input[type=text]{
+   width: 20rem;
+}
+
+input[type=email]{
+   width: 20rem;
+}
+
+input[type=number]{
+   width: 4rem;
+}
+
+select {
+   width: 7rem;
+   overflow-y: auto;
+
+}
+ 
+
+#hidden {
+   display: none;
+}
+
+#nyplante:checked {
+   padding: 20px;
+   background-color: red;
+}
+
+#nyplante:checked ~ #hidden {
+   display: block;
+}

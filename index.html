@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gronne Dromme</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="description" content="En af verdens bedste plantedatabase for alle haveentusiaster">
+    <link rel="icon" type="image/x-icon" href="/img/icons8-green-earth-96.png">
+  </head>
+
+  <body>
+
+    <div class="topnav">
+      <img class="bannerimg" src="./img/Forside img/flowers-3571119_1920 kopier.jpg" alt="Banner Image af blømster">
+      <a class="active" href="./index.html">Forside</a>
+      <a href="Database.html">Plante Database</a>
+      <a href="Contact.html">Kontakt Os</a>
+  
+    </div>
+
+
+    
+    <main>
+
+
+      <h1 class="overskrift">Grønne Drømme</h1>
+      <div class="underskrift" >Velkommen til vores website for haveentusiaster</div>
+      <img
+        class="forsideimage"
+        src="./img/Forside-hoejbed1.jpg"
+        alt="Billede af en Have"
+      />
+      <article>
+        Siden indeholder informationer om planter, der kan dyrkes i danske haver
+        - både grøntsager, krydderurter, blomster og træer. Det primære fokus
+        ligger dog på spiselige planter.
+        <br /><br />
+        Vi brænder for at være selvforsynende og håber, at vi kan inspirere
+        andre til at gå i samme retning - det påvirker både din families sundhed
+        og vores alles klima i en positiv retning.
+      </article>
+      <h2>Plantedatabasen</h2>
+      <img
+        class="forsideimage2"
+        src="img/Forside-hoejbed2.jpg"
+        alt="person som graver i jord med sine hænder"
+      />
+      <article>
+        Vores plantedatabase vokser dag for dag og indeholder al den
+        information, som du har brug for, hvis du vil dyrke dine egne planter.
+        <br /><br />
+        Hvis du mangler informationer om en plante, opdager forkerte
+        informationer eller mangler en plante, er du velkommen til at skrive til
+        os på info@gronnedromme.dk.
+        <br /><br />
+        En del af vore informationer er fra
+        <a href="http://da.wikipedia.com">den danske wikipedia</a> <br /><br />
+        Har du lyst til at bidrage med at tilføje planter i plantedatabasen,
+        hører vi meget gerne fra dig. Vi kan altid bruge flere grønne fingre på
+        tastaturer, så databasen efterhånden bliver fyldt mere og mere op.
+      </article>
+
+      <h2 class="nyplant">Nyeste planter i databasen</h2>
+      
+      <div class="flexforside">
+
+        
+        <div>
+        <article class="forsideimg" >Bønne, Blue Lake</article>
+        <a  target="_blank" href="boennebluelake.html"><img class="nyesteplante"src="img/BeanBlueLake.jpg"alt="billede af bønner fra blue lake"/>
+        </a>
+        </div>
+
+       <div>
+        <article class="forsideimg" >Ært, Alderman</article>
+        <a  target="_blank" href="aertalderman.html"><img class="nyesteplante"src="img/Plantesideimg/Pea400px.jpg"alt="billede af ærter fra Alderman"/></a>
+      </div>
+        
+      <div>
+        <article class="forsideimg" >Basilikum, Ocimum Basilicum</article>
+        <a  target="_blank" href="basilikum.html"><img class="nyesteplante"src="./img/Plantesideimg/Basilikum400px.jpg"alt="billede af basilikum"></a>
+      </div>
+
+      </div>
+    
+    </main>
+    <div class="divfooter">
+      <footer class="footer">©Grønne Drømme 2023</footer>
+    </div>
+    <script>
+      window.addEventListener('scroll', function() {
+        var banner = document.querySelector('.bannerimg');
+        if (window.scrollY >= 150) {
+          banner.style.display = 'none'; // Hide the banner by moving it off the screen
+        } else {
+          banner.style.display = 'block'; // Show the banner by resetting its position
+        }
+      });
+    </script>
+
+  </body>
+</html>
